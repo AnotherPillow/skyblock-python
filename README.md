@@ -11,7 +11,7 @@ Initial stages currently, basic (to be async) package for iteracting with the sk
 ### Get server
 
 ```python
-from src.skyblock.skyblock import * 
+from skyblock import * 
 
 players = getPlayers('economy') # economy, skywars or survival
 print(players)
